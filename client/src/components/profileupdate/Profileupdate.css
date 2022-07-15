@@ -1,0 +1,66 @@
+.update-btn
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: cursive;
+}
+
+.input label
+{
+    font-weight: 500;
+}
+
+.input input
+{
+    margin-left: 10px;
+    width: 160px;
+}
+
+.extra input
+{
+    width: 220px;
+}
+
+.extraX input
+{
+    width: 320px;
+}
+
+.smallX input
+{
+    width: 140px;
+}
+
+.input input:focus
+{
+    outline: none;
+}
+
+.field
+{
+    margin-bottom: 10px;
+}
+
+.submit-btn
+{
+    background-color: lawngreen !important;
+    font-family: cursive;
+    font-size: 10px;
+    height: 2rem !important; 
+    margin-left: 404px !important;
+    font-size: 16px !important;
+}
+
+.edit-btn
+  {
+    background-color: lawngreen;
+    color: white;
+    border: none;
+    width: 3.3rem;
+    height: 1.6rem;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+

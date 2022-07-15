@@ -1,0 +1,152 @@
+.topbarContainer {
+    height: 60px;
+    width: 100%;
+    background-color: lavender;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  
+  .head-img
+  {
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+  }
+
+  .topbarLeft {
+    flex: 3;
+  }
+  
+  .logo {
+    font-size: 30px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: royalblue;
+    cursor: pointer;
+  }
+  
+  .topbarCenter {
+    flex: 5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .searchbar {
+    width: 70%;
+    height: 37px;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .searchIcon {
+    font-size: 20px !important;
+    margin-left: 10px;
+    margin-right: 20px;
+    justify-content: space-between;
+  }
+  
+  .searchInput {
+    border: none;
+    width: 70%;
+  }
+  
+  .searchInput:focus {
+    outline: none;
+  }
+  
+  .topbarRight {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+  }
+  
+  .topbarLink {
+    margin-right: 10px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .home-button
+  {
+    width: 5rem;
+    height: 2.2rem;
+    font-weight: 600;
+    border-radius: 9px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    margin-top: 1px;
+    cursor: pointer;
+  }
+
+  .home-button:hover
+  {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+  }
+  
+  .topbarIconBadge {
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+  }
+  
+  .topbarImg {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+  }
+
+  a
+  {
+    text-decoration: none;
+  }
+
+  .topbar-img
+  {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .userImg
+  {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: -2px;
+  }
+
+  .head-name
+  {
+    font-size: 22px;
+    font-weight: 600;
+    color: darkblue;
+    font-family: cursive;
+  }
+
+  .head-name:hover
+  {
+    color: gold;
+  }

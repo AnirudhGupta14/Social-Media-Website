@@ -1,0 +1,106 @@
+.rightbar {
+    flex: 3.5;
+  }
+  
+  .rightbarWrapper {
+    padding: 20px 20px 0 0;
+  }
+  
+  .birthdayContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .birthdayImg {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .birthdayText {
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  .birthdayText b
+  {
+    font-weight: 600;
+  }
+  
+  .rightbarAd {
+    width: 100%;
+    border-radius: 10px;
+    height: 19rem;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+  
+  
+  
+  .rightbarFriendList {
+    padding: 0;
+    margin-top: 20px;
+    list-style: none;
+  }
+  
+  .rightbarTitle{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: darkblue;
+  }
+  
+  .rightbarInfo{
+    margin-bottom: 20px;
+  }
+  
+  .rightbarInfoItem{
+    margin-bottom: 10px;
+  }
+  
+  .rightbarInfoKey{
+    font-weight: 500;
+    margin-right: 15px;
+    color: black;
+    font-size: larger;
+  }
+  
+  .rightbarInfoValue{
+    font-weight: 500;
+    font-size: large;
+    color: blue;
+  }
+  
+  .rightbarFollowings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .rightbarFollowing{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .rightbarFollowingImg{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  .rightbarButton
+  {
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+  }
